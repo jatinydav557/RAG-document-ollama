@@ -1,17 +1,15 @@
-
----
-
-````markdown
 # 📄 RAG Document Q&A with 🦙 Ollama + 🧠 Groq + Streamlit
 
 This project is an end-to-end **Retrieval-Augmented Generation (RAG)** app built using **LangChain**, **Groq’s LLaMA3-8B**, and **Ollama embeddings**. Users can upload research PDFs, create a vector database, and ask questions with LLM-powered accurate answers.
+
+Built with ❤️ by **Jatin**.
 
 ---
 
 ## 📺 Demo
 
-▶️ YouTube Demo: [Watch Here](https://www.youtube.com/watch?v=dQw4w9WgXcQ)  
-<!-- Replace with your actual demo link -->
+▶️ YouTube Demo: [Watch Here](https://www.youtube.com/watch?v=dQS3hz9lra0&list=PLe-YIIlt-fbO3hXVoaPK56ikWRT0A9Gzr&index=6&ab_channel=Jatin)  
+
 
 ---
 
@@ -34,7 +32,7 @@ This project is an end-to-end **Retrieval-Augmented Generation (RAG)** app built
 ├── .env                    # Environment variables
 ├── requirements.txt        # Project dependencies
 └── README.md               # Project documentation
-````
+```
 
 ---
 
@@ -43,21 +41,21 @@ This project is an end-to-end **Retrieval-Augmented Generation (RAG)** app built
 ### 1️⃣ Clone the Repo
 
 ```bash
-git clone https://github.com/yourusername/rag-document-ollama.git
-cd rag-document-ollama
+git clone https://github.com/jatinydav557/RAG-document-ollama.git
+cd RAG-document-ollama
 ```
 
 ### 2️⃣ Create a virtual environment
 
 ```bash
-uv venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
 
 ### 3️⃣ Install Requirements
 
 ```bash
-uv pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### 4️⃣ Set up `.env` file
@@ -107,36 +105,36 @@ pypdf
 
 ## 🙋‍♂️ About Me
 
-I'm currently a **final-year MCA student** and an **aspiring Machine Learning Engineer**. I'm passionate about building real-world applications with **GenAI, LangChain, RAG pipelines**, and **LLMs**.
+I'm **Jatin**, a final-year MCA student and an aspiring **Machine Learning Engineer** passionate about building **real-world AI apps** with **LangChain**, **RAG pipelines**, and **LLMs**.
 
-📌 Actively looking for roles in:
-📊 Data Science • 🧠 LLM Engineering • 🤖 NLP / GenAI • ⚙️ MLOps
+Currently building 20+ GenAI projects to showcase end-to-end engineering skills in:
 
-🔗 [LinkedIn](https://www.linkedin.com/in/yourname)
-🌐 [Portfolio](https://yourwebsite.com)
+- 📊 Data Science
+- 🧠 LLM Engineering
+- 🤖 NLP / GenAI
+- ⚙️ MLOps & Deployment
+
+---
+
+## 🧩 Let's Connect
+
+- **💼 LinkedIn:** [linkedin.com/in/jatin557](https://www.linkedin.com/in/jatin557)
+- **📦 GitHub:** [github.com/jatinydav557](https://github.com/jatinydav557)
+- **📬 Email:** [jatinydav557@gmail.com](mailto:jatinydav557@gmail.com)
+- **📱 Phone:** [+91-7340386035](tel:+917340386035)
+- **🎥 YouTube:** [Watch More Projects](https://www.youtube.com/@jatinML/playlists)
 
 ---
 
 ## 🚀 Future Enhancements
 
-* 🧠 Add memory or feedback loop to improve response quality
-* 🌍 Deploy on Streamlit Cloud, Hugging Face Spaces, or GCP
-* 🧾 Add PDF title summarization & multi-file context management
+- 🧠 Add memory or feedback loop to improve response quality  
+- 🌍 Deploy on Streamlit Cloud, Hugging Face Spaces, or GCP  
+- 🧾 Add PDF title summarization & multi-file context management  
 
 ---
 
-⭐ If you like this project, give it a **star** and feel free to fork it to make it your own!
+⭐ If you like this project, give it a **star** and feel free to fork it to make your own version!
 
-```
+> “You're one project away from your dream role — so build boldly.”
 
----
-
-✅ Be sure to replace:
-- `https://www.youtube.com/watch?v=dQw4w9WgXcQ` → your actual demo link  
-- `yourusername` → your GitHub username  
-- `your_groq_api_key`, `your_langchain_api_key` → your actual API keys (in `.env`, never commit!)  
-- `https://www.linkedin.com/in/yourname` → your LinkedIn  
-- `https://yourwebsite.com` → your personal website (optional)
-
-Would you like me to generate all your readme thumbnails (banner or preview image) or help you deploy this?
-```
